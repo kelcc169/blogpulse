@@ -1,0 +1,11 @@
+<h1>Authors</h1>
+
+<% authors.forEach(function (author) {%>
+    <div class="author">
+        <h2><a href="/authors/<%= author.id %>"><%= author.name %></a></h2>
+    </div>
+<% }); %>
+
+<hr />
+
+<a href="/">&larr; Back Home</a>
